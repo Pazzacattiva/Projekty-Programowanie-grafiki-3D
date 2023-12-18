@@ -1,3 +1,0 @@
-C:\Users\ANITA\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\Colors.dir/objects.a
-C:\Users\ANITA\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\Colors.dir/objects.a @CMakeFiles\Colors.dir\objects1.rsp
-C:\Users\ANITA\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Colors.dir/objects.a -Wl,--no-whole-archive -o Colors.exe -Wl,--out-implib,libColors.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Colors.dir\linkLibs.rsp
