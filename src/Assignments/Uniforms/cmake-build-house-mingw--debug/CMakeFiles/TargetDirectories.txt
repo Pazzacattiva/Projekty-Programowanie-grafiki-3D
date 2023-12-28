@@ -1,0 +1,3 @@
+C:/Users/ANITA/Desktop/IKA/UJ/Semestry/I/Przedmioty/Programowanie grafiki 3D/3d23/src/Assignments/Colors/cmake-build-house-mingw--debug/CMakeFiles/Colors.dir
+C:/Users/ANITA/Desktop/IKA/UJ/Semestry/I/Przedmioty/Programowanie grafiki 3D/3d23/src/Assignments/Colors/cmake-build-house-mingw--debug/CMakeFiles/edit_cache.dir
+C:/Users/ANITA/Desktop/IKA/UJ/Semestry/I/Przedmioty/Programowanie grafiki 3D/3d23/src/Assignments/Colors/cmake-build-house-mingw--debug/CMakeFiles/rebuild_cache.dir
