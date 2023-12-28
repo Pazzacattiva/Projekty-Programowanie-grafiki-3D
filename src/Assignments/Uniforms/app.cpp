@@ -65,8 +65,7 @@ void SimpleShapeApplication::init() {
 
     glBufferData(GL_UNIFORM_BUFFER, 12 * sizeof(GLfloat), nullptr, GL_STATIC_DRAW);
 
-    //Skala, transformacja i  rotacja ( ustawiona podwójnie
-    na 0 i 1)
+    //Skala, transformacja i  rotacja ( ustawiona podwójnie na 0 i 1)
     glBufferSubData(GL_UNIFORM_BUFFER, 0,2*sizeof(float),&scale);
     glBufferSubData(GL_UNIFORM_BUFFER, 2*sizeof(float),2*sizeof(float),&trans);
     glBufferSubData(GL_UNIFORM_BUFFER, 4*sizeof(float),4*sizeof(float),&rot[0]);
