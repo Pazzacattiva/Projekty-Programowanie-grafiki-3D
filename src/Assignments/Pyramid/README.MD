@@ -1,1 +1,1 @@
-Na początku plik zużywał 2 864.3 MB a po optymalizacji buforowania zużywa 2 227.5MB zostało zaoszczędzone 636.8MB czyli 636 800 000 bajtów. Ciężko jednoznacznie określić ile jeszcze bajtów można byłoby zaoszczędzić ponieważ zmniejszenie zużycia zależy m.in. od liczby powtórzeń i skomplikowania struktury geometrii, rodzaju danych, komponentu koloru, precyzji i wiele innych. Przykładowo gdyby usunąć z kodu liczby komponentu koloru to po optymalizacji buforowania znowu zmniejszyło by się zużycie bajtów.
+
