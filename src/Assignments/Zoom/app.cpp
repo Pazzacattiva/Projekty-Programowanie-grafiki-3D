@@ -1,7 +1,6 @@
 //
 // Created by pbialas on 25.09.2020.
 //
-
 #include "app.h"
 #include "glm/glm.hpp"
 #include "glm/gtc/constants.hpp"
