@@ -25,7 +25,7 @@ void SimpleShapeApplication::init() {
     // Usuwanie powtarzających się wierzchołków 
     std::vector<GLushort> indices = {0,3,2 , 1,3,0 , 4,5,6 , 7,8,9 , 10,11,12 , 13,14,15};
 
-    // // Wierzchołki i kolory piramidy
+    // Wierzchołki i kolory piramidy
     std::vector<GLfloat> vertices = {
             0.0f, 0.0f, 0.0f, 0.0f,1.0f,0.0f,//0
             1.0f, 0.0f, 0.0f, 0.0f,1.0f,0.0f,//1
