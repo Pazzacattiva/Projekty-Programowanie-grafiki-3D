@@ -4,7 +4,7 @@
 #include "glm/gtc/matrix_transform.hpp"
 class Camera {
 public:
-//zoom and logistics:
+//Zoom
     float logistic(float y) {
         return 1.0f/(1.0f+std::exp(-y));
     }
@@ -22,7 +22,6 @@ public:
 
     }
 
-//copied from ReadMe
     void look_at(const glm::vec3 &eye, const glm::vec3 &center, const glm::vec3 &up) {
         V_ = glm::lookAt(eye, center, up);
     }
