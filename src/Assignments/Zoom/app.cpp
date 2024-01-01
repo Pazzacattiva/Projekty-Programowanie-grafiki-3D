@@ -24,9 +24,7 @@ void SimpleShapeApplication::framebuffer_resize_callback(int w, int h) {
 }
 
 void SimpleShapeApplication::init() {
-    // A utility function that reads the shader sources, compiles them and creates the program object
-    // As everything in OpenGL we reference program by an integer "handle".
-    auto program = xe::utils::create_program(
+   auto program = xe::utils::create_program(
             {{GL_VERTEX_SHADER,   std::string(PROJECT_DIR) + "/shaders/base_vs.glsl"},
              {GL_FRAGMENT_SHADER, std::string(PROJECT_DIR) + "/shaders/base_fs.glsl"}});
 
