@@ -5,9 +5,12 @@ layout(location=0) out vec4 vFragColor;
 layout(std140, binding = 0) uniform Modifier  {
     float strength;
     vec3  color;
+    vec4 Kd;
+    bool use_map_Kd;
    };
 
 void main() {
     vFragColor.a = b_vertex_color.a;
     vFragColor.rgb = strength*color*b_vertex_color.rgb;
+    
 }
